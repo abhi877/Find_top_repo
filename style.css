@@ -1,0 +1,13 @@
+#header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#load,
+#error,
+#pager,
+#header,
+#h,
+#footer {
+    text-align: center;
+}
