@@ -1,12 +1,16 @@
-Name: Aditya
-email: aditya2041999@gmail.com
-Number: 9896501004
-Project-hosted-link: https://adityaalmabase.netlify.app/
+Name: Abhinav
+email: kumar.abhinav5670@gmail.com
+Number: +91-6283445670
 
-Tech-stack: html, Css, JavaScript, JQuery
+Technology Used: 
+----------------
+HTML, CSS, JavaScript, JQuery
 
-About: It takes 3 inputs (org_name),(how many top repos's of that org you want to see ) and (how many top contributors of that each repo you want to see).
-everything is shown in a readable format with all the links and avatars embedded. The first loading might take 5-10 sec as i am using free version of Api and dont have a fast server but i've taken care that the site never crash and give the output as quick as possible. For making calls less and fast i have used pagination technique. Ajax calls are used so that page dosent have to reload again and again which makes it scalable and ready for production.
+About: 
+------
+In a summarized way, this project is used to find the top repository files of any orgranisation.
+It takes 3 inputs: Organisation Name, How many top repos of the organisation the user want to search, and how many top contributors of that each repo the user want to see.
+Everything is shown in a readable format with all the links and avatars embedded. The first loading might take 5-10 sec as I am using free version of API and dont have a fast server but i've taken care that the site never crash and give the output as quick as possible. For making calls less and fast i have used pagination technique. Ajax calls are used so that page dosent have to reload again and again which makes it scalable and ready for production.
 
 API used: 1> https://api.github.com/orgs/${org_name}
           2> https://api.github.com/orgs/${org_name}/repos?per_page=100&page=${page_no}
@@ -27,4 +31,10 @@ For running it on your system: 1> download the code.
                                5> Make sure u have active internet connection.
 
     
-My linkedIn profile and email link is also given on the home page :) 
+My Role: 
+--------
+This project is a minor project and is being created by myself. The whole program is divided into multiple modules (functions) and I used modular programming to make the code more efficient. I also used some advanced concepts of Java language and some APIs github (links are given above).
+
+Difficulties:
+-------------
+I faced some difficulties to use some free versions of API because the project was taking too much time to laod the repositories of a particular organization. It was not a fast server. I also find the implementation of pagination technique and AJAX because of the heavy versions. So the browser was taking some time to load the repos. But I took care of it to minimize the complexity of pagination technique by using shadow index.
